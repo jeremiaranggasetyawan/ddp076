@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>DDP-0 | Information Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar"
+      style="background-color: #e3f2fd"
+    >
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">DDP-0 | Kelompok-076</span>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Outer Frame -->
+    <div
+      class="card m-3 mt-2"
+      id="frameSubmission"
+    >
+      <div class="card-header">Information Page ~ Dibuat oleh : Jeremia Rangga Setyawan (Mentor Kelompok 076)</div>
+      <div class="p-5">
+        <div class="d-flex justify-content-center">
+          <h3 class="card-title text-center">Information Page</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p class="card-text text-center">
+            Berikut adalah laman informasi mengenai lab pada DDP-0. <br />
+            Silahkan dipelajari solusi maupun pertanyaan demo berikut sebagai persiapan DDP-1
+          </p>
+        </div>
+        <hr />
+        <!-- Solusi Kode Lab -->
+        <h4 class="card-title text-center justify-content-center">Solusi Kode Lab</h4>
+        <p class="text-center d-flex justify-content-center">
+          Berikut adalah solusi 4 lab kemarin. Tidak semua solusi memiliki <br />
+          dokumentasi/comment yang lengkap, kalian dapat lengkapi sendiri.
+        </p>
+        <div class="d-flex justify-content-center">
+          <div
+            class="list-group"
+            style="width: 50vw"
+          >
+          <!-- Solusi LAB 0 -->
+            <a
+              href="https://drive.google.com/file/d/1oyZxfFl65LaXnvbJopi0cpAW8wMsMH7V/view?usp=drive_link"
+              target="_blank"
+              class="list-group-item list-group-item-action"
+              >Solusi Lab 0</a
+            >
+            <!-- Solusi LAB 1 -->
+            <a
+              href="https://drive.google.com/file/d/1EBiIKiIz3ctDVWzgakRhnsb5d_25_Otq/view?usp=drive_link"
+              target="_blank"
+              class="list-group-item list-group-item-action"
+              >Solusi Lab 1</a
+            >
+            <!-- Solusi LAB 2 -->
+            <a
+              href="https://drive.google.com/file/d/1YqCBo7sGNLX5jSfMY_uA9HYpYkmlucih/view?usp=drive_link"
+              target="_blank"
+              class="list-group-item list-group-item-action"
+              >Solusi Lab 2</a
+            >
+            <!-- Solusi LAB 3 -->
+            <a
+            href="https://drive.google.com/file/d/1cQ4KlomVBMrhT43tmllZqrac24cf1UBm/view?usp=drive_link"
+            target="_blank"
+              class="list-group-item list-group-item-action disabled text-danger"
+              >Solusi Lab 3&ensp;&emsp;<i>[Dibuka saat sudah selesai semua]</i></a
+            >
+          </div>
+        </div>
+        <hr />
+        <!-- Solusi Pertanyaan Lab -->
+        <h4 class="card-title text-center justify-content-center">Solusi Pertanyaan Demo Lab</h4>
+        <p class="text-center d-flex justify-content-center">
+          Berikut adalah pertanyaan beserta jawaban dari pertanyaan demo lab kemarin. <br />
+          Kalian dapat menambahkan jawaban dari solusi yang diberikan.
+        </p>
+        <div class="d-flex justify-content-center">
+          <div
+            class="accordion"
+            id="accordionExample"
+            style="width: 50vw"
+          >
+          <!-- Pertanyaan LAB 0 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Solusi Pertanyaan Lab 0
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>PERTANYAAN LAB 0 (6 poin/soal) :</p>
+
+<p>PERTANYAAN UTAMA :</p>
+
+<p>1. Apakah string dan char di python sama atau berbeda?</p>
+
+<p>jawaban : Sama saja. Di python tidak ada perbedaan string dan char karena char dalam python juga dianggap string. Hal ini berbeda dengan bahasa pemograman Java.</p>
+
+<p>2. Apakah input untuk int dan string berbeda?</p>
+
+<p>Jawaban : sama saja. Namun perlu diingat input dari user akan dianggap string oleh python sehingga jika ingin dilakukan operasi matematika perlu diubah terlebih dahulu ke interger.</p>
+
+<p>contoh penggunaan :<br />
+nama = input(&quot;Nama : &quot;) --> dainggap string<br />
+alas = int(input(&quot;Masukkan alas (cm) : &quot;)) --> dianggap interger</p>
+
+<p>3. Mengapa kita perlu menggunakan libary math di python? dan apakah cukup untuk menggunakan operasi biasa pada python?</p>
+
+<p>Jawaban : Karena ada beberapa operasi matematika kompleks yang tidak dapat dilakukan tanpa menggunakan library math misalnya seperti akar kuadrat (yang ada di lab) atau misalnya ingin mendapatkan nilai matematika konstan seperti pi.</p>
+
+<p>4. Apakah string angka dapat diubah menjadi integer dan sebaliknya?</p>
+
+<p>Jawaban : bisa dan berlaku bolak balik. Kita cukup menanbahkan str() utk mengubah interger/float ke string dan int() utk mengubah string ke interger.</p>
+
+<p>PERTANYAAN ALTERNATIF :</p>
+
+<p>5. Selain math, berikan contoh library lainnya di python beserta kegunaannya ?</p>
+
+<p>Jawaban : Terdapat di slide modul week 0.<br />
+-> Numpy untuk melakukan komputasi pada array<br />
+-> Pandas untuk analisis data<br />
+-> Numerize untuk komputasi angka yang besar.</p>
+
+<p>6. Jika user menginput alas dan tinggi dari segitiga tersebut dalam bentuk desimal apakah kode yang kamu buat akan error ? Jika error bagaimana cara memodifikasinya agar tidak error ?</p>
+
+<p>Jawaban : jika mentee menggunakan int() dalam inputnya maka akan error. Solusinya tinggal mengubah int() menjadi float().</p>
+
+<p>7. Bisakah kita menghitung sisi miring dari segitiga tanpa menggunakan modul math.sqrt ? jika bisa bagaiamana caranya ?</p>
+
+<p>Jawaban : Tentu bisa. Berikut caranya -> sisi_miring = (alas**2 + tinggi**2)**0.5</p>
+
+<p>8. Apa perbedaan penggunaan math.ceil dan math.floor ?</p>
+
+<p>Jawaban : math.ceil digunakan saat ingin membulatkan angka ke atas. Sedangkan, math.floor digunakan saat ingin membulatkan angka ke Bawah.<br />
+Misal =<br />
+math.ceil(52.3) -> hasilnya : 53<br />
+math.floor(52.3) -> hasilnya : 52</p>
+                </div>
+              </div>
+            </div>
+          <!-- Pertanyaan LAB 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Solusi Pertanyaan Lab 1
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>PERTANYAAN LAB 1 (6 poin/soal) :</p>
+
+<p>PERTANYAAN A :</p>
+
+<p><strong>1. Apa perbedaan antara pernyataan 'if' dan 'elif' dalam bahasa pemrograman Python? Jelaskan dengan contoh.</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Dalam Python, pernyataan if dan elif digunakan untuk membuat keputusan/decision berdasarkan kondisi tertentu. Perbedaannya terletak pada cara mereka digunakan.</p>
+
+<p>1) Pernyataan if</p>
+<p>- if digunakan untuk memeriksa suatu kondisi untuk pertama kali.</p>
+<p>- Jika kondisi yang diberikan bernilai True, maka blok kode di dalam if akan dieksekusi.</p>
+<p>- Hanya satu pernyataan if yang digunakan.</p>
+
+<p>2) Pernyataan elif (else if)</p>
+<p>- elif digunakan untuk memeriksa kondisi tambahan jika kondisi pada if sebelumnya bernilai False.</p>
+<p>- Kamu bisa menggunakan beberapa (lebih dari 1) pernyataan elif setelah pernyataan if, dan masing-masing akan diperiksa secara berurutan sampai salah satunya bernilai True.</p>
+<p>- Jika tidak ada kondisi yang terpenuhi, Python akan melewati blok tersebut.</p>
+
+<p>Contoh:</p>
+<pre>nilai = 85
+
+if nilai >= 90:
+    print("Grade: A")
+elif nilai >= 80:
+    print("Grade: B")
+elif nilai >= 70:
+    print("Grade: C")
+else:
+    print("Grade: D")</pre>
+
+<p><strong>2. Jelaskan perbedaan antara loop 'for' dan loop 'while' dalam Python. Berikan contoh penggunaannya.</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Dalam Python, baik for loop maupun while loop digunakan untuk menjalankan suatu blok kode berulang kali, namun cara keduanya bekerja memiliki perbedaan mendasar.</p>
+
+<p>For loop: Digunakan ketika jumlah iterasi sudah diketahui sebelumnya atau saat kita ingin melakukan iterasi melalui suatu urutan (seperti list, tuple, string, range, dll.). Loop ini akan berakhir setelah seluruh item dalam urutan tersebut telah diakses.</p>
+
+<p>Contoh penggunaan:</p>
+<pre>fruits = ['apple', 'banana', 'cherry']
+for fruit in fruits:
+    print(fruit)</pre>
+
+<p>While loop: Digunakan ketika kita ingin menjalankan loop selama kondisi tertentu bernilai True. Jumlah iterasi tidak harus diketahui sebelumnya, karena loop akan terus berjalan selama kondisi yang diberikan tetap terpenuhi.</p>
+
+<p>Contoh penggunaan:</p>
+<pre>counter = 0
+while counter < 3:
+    print("Counter:", counter)
+    counter += 1</pre>
+
+<p>Contoh mencetak angka dari 0 sampai 4:</p>
+<p>For loop:</p>
+<pre>for i in range(5):
+    print(i)</pre>
+
+<p>While loop:</p>
+<pre>i = 0
+while i < 5:
+    print(i)
+    i += 1</pre>
+
+<p><strong>3. Apa yang dimaksud dengan nested conditional dalam Python? Berikan contoh penggunaannya.</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Nested conditional dalam Python mengacu pada kondisi bersarang, yaitu pernyataan kondisional (if, elif, else) yang ditempatkan di dalam pernyataan kondisional lainnya. Ini memungkinkan kita untuk membuat keputusan yang lebih kompleks berdasarkan beberapa kondisi yang terkait.</p>
+
+<p>Contoh penggunaan:</p>
+<pre>suhu = 30
+cuaca = "cerah"
+
+if suhu > 25:
+    if cuaca == "cerah":
+        print("Cuaca panas dan cerah, bagus untuk berjemur!")
+    else:
+        print("Cuaca panas tapi mendung, lebih baik di dalam ruangan.")
+else:
+    if cuaca == "cerah":
+        print("Cuaca sejuk dan cerah, cocok untuk berjalan-jalan.")
+    else:
+        print("Cuaca sejuk dan mendung, mungkin lebih baik di dalam ruangan.")</pre>
+
+<p><strong>4. Apa itu nested loop dalam Python? Berikan contoh penggunaannya.</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Nested loop dalam Python adalah loop di dalam loop lainnya. Artinya, kita memiliki sebuah loop yang berada di dalam blok kode loop lain.</p>
+
+<p>Contoh penggunaan:</p>
+<pre>list_1 = ['A', 'B', 'C']
+list_2 = [1, 2, 3]
+
+for item_1 in list_1:
+    for item_2 in list_2:
+        print(item_1, item_2)</pre>
+
+<p>PERTANYAAN B :</p>
+
+<p><strong>1. Bagaimana cara menggunakan pernyataan 'else' dalam Python? Jelaskan dengan contoh.</strong></p>
+<p><strong>Jawab:</strong> Jawaban ini ada di pertanyaan A nomor 1.</p>
+
+<p><strong>2. Apa yang terjadi jika kondisi pada loop 'while' tidak pernah menjadi False? Jelaskan dengan contoh.</strong></p>
+<p><strong>Jawab:</strong><br>
+Jika kondisi pada loop while tidak pernah menjadi False, maka loop tersebut akan terus berjalan tanpa henti atau yang biasa disebut sebagai infinite loop (loop tak terbatas).</p>
+
+<p>Contohnya:</p>
+<pre>i = 1
+while i > 0:
+    print(i)
+    # Lupa memperbarui nilai i atau kondisi tidak akan pernah menjadi False</pre>
+
+<p><strong>3. Bagaimana cara menghindari terlalu banyak nested conditional yang dapat membuat kode sulit dibaca dan dipelihara? Berikan contoh alternatifnya.</strong></p>
+
+<p><strong>Jawab:</strong> Terlalu banyak nested conditional dapat membuat kode sulit dibaca, dipahami, dan dipelihara. Untuk menghindari kompleksitas yang berlebihan:</p>
+<p>1) Gunakan return atau break lebih awal</p>
+<p>2) Pisahkan logika menjadi fungsi tersendiri</p>
+<p>3) Gunakan struktur data seperti Dictionary</p>
+<p>4) Gunakan logika and atau or</p>
+
+<p>PERTANYAAN C :</p>
+
+<p><strong>1. Apa fungsi dari operator logika 'and', 'or', dan 'not' dalam pernyataan if-else di Python? Berikan contoh penggunaannya.</strong></p>
+
+<p><strong>Jawab:</strong><br>
+Operator logika and, or, dan not digunakan dalam Python untuk menggabungkan atau memodifikasi kondisi logis dalam pernyataan if-else.</p>
+
+<p>1) And: Memeriksa dua atau lebih kondisi dan akan bernilai True hanya jika semua kondisi bernilai True.</p>
+<p>2) Or: Memeriksa dua atau lebih kondisi dan akan bernilai True jika setidaknya satu kondisi bernilai True.</p>
+<p>3) Not: Membalik nilai logis dari sebuah kondisi. Jika suatu kondisi bernilai True, maka not akan membuatnya menjadi False, dan sebaliknya.</p>
+
+<p><strong>2. Jelaskan bagaimana cara menggunakan pernyataan 'break' dan 'continue' dalam loop di Python. Berikan contoh penggunaannya.</strong></p>
+
+<p><strong>Jawab:</strong></p>
+<p>1) Pernyataan break: Digunakan untuk menghentikan eksekusi loop sepenuhnya.</p>
+
+<p>Contoh:</p>
+<pre>angka = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for a in angka:
+    if a == 5:
+        print(f"Angka {a} ditemukan, keluar dari loop.")
+        break
+    print(a)</pre>
+
+<p>2) Pernyataan continue: Digunakan untuk melewati iterasi saat ini dan langsung melompat ke iterasi berikutnya.</p>
+
+<p>Contoh:</p>
+<pre>for i in range(1, 10):
+    if i % 2 != 0:  # Jika i adalah angka ganjil
+        continue  # Lewati iterasi ini dan lanjutkan ke iterasi berikutnya
+    print(i)</pre>
+
+<p>3) Gabungan keduanya</p>
+
+<p>Contoh penggunaan:</p>
+<pre>for i in range(1, 10):
+    if i % 2 != 0:  # Jika i adalah angka ganjil, lanjutkan ke iterasi berikutnya
+        continue
+    if i > 6:  # Jika i lebih dari 6, keluar dari loop
+        break
+    print(i)</pre>
+
+<p><strong>3. Bagaimana cara menggunakan pernyataan if-else bersarang (nested conditional) untuk menentukan kategori berdasarkan nilai? Berikan contoh.</strong></p>
+
+<p>Contoh penggunaannya:</p>
+<pre>def tentukan_kategori_nilai(nilai):
+    if nilai >= 90:
+        print("Grade: A")
+    else:
+        if nilai >= 80:
+            print("Grade: B")
+        else:
+            if nilai >= 70:
+                print("Grade: C")
+            else:
+                if nilai >= 60:
+                    print("Grade: D")
+                else:
+                    print("Grade: F")
+
+nilai_siswa = 85
+tentukan_kategori_nilai(nilai_siswa)  # Kira-kira hasilnya apa?</pre>
+
+<p><strong>4. Apa tantangan yang dihadapi saat menggunakan nested loop, dan bagaimana cara mengatasinya?</strong></p>
+
+<p><strong>Jawab:</strong></p>
+<p>1) Kompleksitas Waktu (Time Complexity): Tantangan terbesar saat menggunakan nested loop adalah meningkatnya kompleksitas waktu.</p>
+<p>Solusinya:</p>
+<p>* Optimalkan logika algoritma</p>
+<p>* Gunakan struktur data yang tepat</p>
+
+<p>2) Keterbacaan dan Pemeliharaan Kode: Kode dengan banyak tingkat nested loop bisa menjadi sulit dibaca dan dipahami.</p>
+<p>Solusinya:</p>
+<p>* Pisahkan logika menjadi fungsi</p>
+<p>* Gunakan nama variabel yang deskriptif</p>
+
+<p>3) Loop Infinite Secara Tidak Sengaja: Nested loop yang rumit kadang-kadang dapat menyebabkan loop infinite (tak terbatas) secara tidak sengaja.</p>
+<p>Solusinya:</p>
+<p>* Pastikan kondisi penghentian yang jelas</p>
+<p>* Gunakan pernyataan break jika perlu</p>
+
+<p>4) Penggunaan Memori yang Tinggi: Nested loop yang melibatkan struktur data besar dapat menyebabkan penggunaan memori yang tinggi.</p>
+<p>Solusinya:</p>
+<p>* Gunakan generator</p>
+<p>* Pertimbangkan struktur data yang lebih efisien</p>
+
+<p>$# Sumber jawaban: GPT dan pikiran Jeremi</p>
+
+                </div>
+              </div>
+            </div>
+          <!-- Pertanyaan LAB 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Solusi Pertanyaan Lab 2
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p><strong>PERTANYAAN LAB 2 (6 poin/soal) :</strong></p>
+
+<p><strong>PERTANYAAN A:</strong></p>
+
+<p><strong>1. Setelah mempelajari fungsi pada Python, pada kondisi seperti apa Anda menggunakan fungsi hanya sebagai prosedur (tanpa return type) dan dengan return type?</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Dalam Python, fungsi dapat digunakan sebagai prosedur (tanpa return type) atau dengan return type tergantung pada kebutuhan atau tujuan dari fungsi tersebut. Berikut adalah beberapa kondisi dan pertimbangan di mana Anda mungkin menggunakan fungsi sebagai prosedur atau dengan return.</p>
+
+<p><i>1) Menggunakan Fungsi Hanya Sebagai Prosedur (Tanpa return)</i></p>
+
+<pre>def cetak_salam(nama):
+    print(f"Halo, {nama}!")</pre>
+
+<p><i>2) Menggunakan Fungsi dengan return Type</i></p>
+
+<pre>def cek_genap(angka):
+    return angka % 2 == 0</pre>
+
+<p><strong>2. Apa yang akan terjadi jika tidak ada prinsip slicing pada Python?</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Jika prinsip slicing tidak ada dalam Python, maka akan ada beberapa dampak yang signifikan, terutama dalam hal cara kita memanipulasi dan mengakses data dalam tipe koleksi seperti list, tuple, string, dan range. Slicing adalah salah satu fitur yang sangat berguna dan kuat dalam Python untuk bekerja dengan subset data dari struktur data sekuensial. Tanpa slicing, beberapa tantangan yang akan muncul adalah:</p>
+
+<p><i>1) Akses Data yang Kurang Efisien</i><br>
+<i>2) Kesulitan dalam Manipulasi String</i><br>
+<i>3) Lebih Sulit Membalik Urutan Data</i><br>
+<i>4) Operasi Kompleks dengan Rentang dan Langkah</i><br>
+<i>5) Manipulasi Data yang Lebih Kompleks dalam Array dan Pandas</i> &mdash; Akan diajari di DDP 1 TP (mungkin)</p>
+
+<p><strong>3. Pada hasil lab Anda, tunjukkan dua list dan jelaskan apa pengaruhnya pada keseluruhan program!</strong></p>
+
+<p><i>Contoh pada program =</i></p>
+
+<pre>list_name = list()
+list_time = list()</pre>
+
+<p>* Tanpa adanya list tersebut, maka kita akan sulit untuk menyimpan data nama dan Waktu yang nantinya akan diambil dan digunakan Kembali.</p>
+
+<p><strong>4. Pada hasil lab Anda, tunjukkan satu string formatting dan jelaskan formulasi dari string formatting tersebut!</strong></p>
+
+<p><i>Contoh pada program =</i></p>
+
+<pre>print("{:>6} | {:<10} | {:<25}".format(i + 1, list_result[i], str(list_percentage[i]) + "%"))</pre>
+
+<p><i>Penjelasan:</i><br>
+* <i>{:>6}:</i> Mengatur agar nilai pertama (i + 1) diposisikan rata kanan dalam ruang 6 karakter. Jika nilai kurang dari 6 karakter, spasi akan ditambahkan di sebelah kiri.<br>
+* <i>{:<10}:</i> Mengatur agar nilai kedua (list_result[i]) diposisikan rata kiri dalam ruang 10 karakter. Jika nilai kurang dari 10 karakter, spasi akan ditambahkan di sebelah kanan.<br>
+* <i>{:<25}:</i> Mengatur agar nilai ketiga (str(list_percentage[i]) + "%") diposisikan rata kiri dalam ruang 25 karakter. Sama seperti di atas, jika panjang string kurang dari 25 karakter, spasi akan ditambahkan di sebelah kanan.<br>
+* <i>.format(i + 1, list_result[i], str(list_percentage[i]) + "%"):</i> Metode format() digunakan untuk menggantikan placeholder {} dalam string dengan nilai-nilai dari variabel yang diberikan. Dalam hal ini:<br>
+-> i + 1: Nilai pertama yang dimasukkan (misalnya, nomor urutan).<br>
+-> list_result[i]: Nilai kedua, elemen dari list_result di indeks i.<br>
+-> str(list_percentage[i]) + "%": Nilai ketiga, persentase dari list_percentage[i] yang dikonversi menjadi string dan ditambahkan simbol %.</p>
+
+<p><strong>PERTANYAAN B :</strong></p>
+
+<p><strong>1. Sebutkan kegunaan yang Anda peroleh ketika mengimplementasi fungsi pada Python!</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Berikut adalah kegunaan yang diperoleh saat mengimplementasikan fungsi dalam Python:<br>
+1) Modularitas: Fungsi memecah kode menjadi bagian-bagian kecil yang lebih terorganisir dan mudah dipahami.<br>
+2) Reusabilitas: Fungsi dapat dipanggil berkali-kali tanpa perlu menulis ulang kode yang sama.<br>
+3) Pemeliharaan Kode: Kode yang menggunakan fungsi lebih mudah dipelihara dan di-debug karena fungsinya terpisah dan spesifik.<br>
+4) Abstraksi: Fungsi menyembunyikan detail implementasi, sehingga pengguna hanya fokus pada hasilnya.<br>
+5) Mengurangi Duplikasi: Mengurangi kode yang berulang dengan menempatkan logika berulang dalam fungsi.<br>
+6) Peningkatan Keterbacaan: Membuat kode lebih jelas dan lebih mudah dipahami karena setiap fungsi memiliki tanggung jawab yang jelas.</p>
+
+<p><strong>2. Sebutkan dua contoh tipe data yang dapat dilakukan slicing dan jelaskan slicing apa yang dapat diimplementasikan!</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Berikut adalah dua contoh tipe data yang dapat dilakukan slicing dalam Python beserta penjelasannya:</p>
+
+<p><i>1) List</i><br>
+List adalah tipe data yang menyimpan kumpulan elemen yang bisa diakses dengan indeks. Slicing pada list memungkinkan kita untuk mengambil bagian tertentu dari list.</p>
+
+<pre>my_list = [1, 2, 3, 4, 5, 6, 7]
+
+# Mengambil elemen dari indeks 2 hingga 4
+subset = my_list[2:5]  # Output: [3, 4, 5]
+
+# Mengambil elemen dari indeks 0 hingga indeks 3
+first_part = my_list[:4]  # Output: [1, 2, 3, 4]
+
+# Mengambil elemen dari indeks 3 hingga akhir
+second_part = my_list[3:]  # Output: [4, 5, 6, 7]
+
+# Membalik urutan list
+reversed_list = my_list[::-1]  # Output: [7, 6, 5, 4, 3, 2, 1]</pre>
+
+<p><i>2) String</i><br>
+String adalah tipe data yang menyimpan teks dan dapat dianggap sebagai urutan karakter. Slicing pada string memungkinkan kita untuk mengambil bagian tertentu dari string.</p>
+
+<pre>my_string = "Python Programming"
+
+# Mengambil karakter dari indeks 0 hingga 5
+first_word = my_string[:6]  # Output: 'Python'
+
+# Mengambil karakter dari indeks 7 hingga akhir
+second_word = my_string[7:]  # Output: 'Programming'
+
+# Mengambil setiap karakter kedua dari string
+every_second = my_string[::2]  # Output: 'Pto rgamn'
+
+# Membalik urutan string
+reversed_string = my_string[::-1]  # Output: 'gnimmargorP nohtyP'</pre>
+
+<p><strong>4) Pada hasil lab Anda, tunjukkan dua method list dan jelaskan apa yang dilakukan method tersebut!</strong></p>
+
+<p><i>Contoh di lab =</i></p>
+
+<pre>list_admin.append(npm)
+list_time.append(time)</pre>
+
+<p><i>Penjelasan :</i><br>
+Fungsi append() pada list di Python digunakan untuk menambahkan satu elemen ke akhir list. Elemen yang ditambahkan bisa berupa tipe data apapun, seperti angka, string, list lain, atau objek. Fungsi ini memodifikasi list secara langsung dan tidak mengembalikan nilai (mengembalikan None).</p>
+
+<p><strong>PERTANYAAN C:</strong></p>
+
+<p><strong>1. Setelah mempelajari fungsi pada Python, bagaimana Anda mempertimbangkan perlu atau tidak perlunya penggunaan fungsi dalam menulis program?</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Penggunaan fungsi diperlukan ketika:</p>
+
+<p>* Ada bagian kode yang diulang atau perlu digunakan kembali.<br>
+* Kode menjadi terlalu kompleks dan perlu dipecah menjadi bagian-bagian yang lebih kecil.<br>
+* Program perlu lebih mudah dipelihara, diuji, dan di-debug.</p>
+
+<p><i>Kapan Tidak Perlu Menggunakan Fungsi:</i><br>
+* Jika program sangat kecil dan hanya memiliki satu tugas sederhana.<br>
+* Jika tugas hanya dilakukan sekali dan tidak ada kebutuhan untuk mengulang logika yang sama.</p>
+
+<p><strong>2. Misalkan terdapat String "1234", lalu dilakukan slicing padanya. Apakah hasil slicing tersebut menghasilkan value dengan tipe data yang sama? Jelaskan!</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Ya, hasil slicing pada string "1234" akan menghasilkan value dengan tipe data yang sama, yaitu string.<br>
+Dalam Python, slicing pada string selalu menghasilkan substring, dan tipe data string bersifat immutable. Artinya, meskipun kita melakukan slicing untuk mendapatkan sebagian dari string, hasilnya tetap berupa string, bukan tipe data lain.</p>
+
+<p><strong>3. Pada hasil lab Anda, jika line ke-<i>n</i> dihapus (line yang merujuk pada inisiasi sebuah list kosong), apa yang akan terjadi pada keseluruhan program?</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Ada di pertanyaan soal no 3. Silahkan pikirkan juga sendiri!</p>
+
+<p><strong>4. Pada hasil lab Anda, jika aspek string formatting pada line ke-<i>n</i> dihapus, apa yang akan terjadi pada keseluruhan program?</strong></p>
+
+<p><strong>Misalnya jika kode berikut diapus :</strong></p>
+
+<pre>print("{:>6} | {:<10} | {:<25}".format(i + 1, list_result[i], str(list_percentage[i]) + "%"))</pre>
+
+<p>Tentu hasilnya akan jelek dan akan banyak baris yang berantakan sehingga akan sulit dibaca oleh pengguna.</p>
+
+<p><i>$# Sumber jawaban: GPT dan pikiran Jeremi</i></p>
+
+                </div>
+              </div>
+            </div>
+          <!-- Pertanyaan LAB 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header ">
+                <button
+                  class="accordion-button collapsed text-danger"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                  disabled
+                >
+                  Solusi Pertanyaan Lab 3&ensp;&emsp;<i>[Dibuka saat sudah selesai semua]</i>
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p><strong>PERTANYAAN LAB 3 (6 poin/soal) :</strong></p>
+
+<p><strong>PERTANYAAN A:</strong></p>
+
+<p><strong>1. Jelaskan apa itu Turtle secara singkat dan hubungannya dengan Library</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Turtle adalah modul grafis dalam Python yang digunakan untuk membuat gambar dan grafik sederhana. Modul ini menyediakan cara untuk menggambar berbagai bentuk dan pola dengan menggunakan "pen" yang dapat digerakkan ke berbagai arah di layar, seolah-olah Anda sedang mengendalikan seekor kura-kura yang menggambar di kanvas.<br><br>
+Hubungannya dengan <i>library</i> adalah bahwa Turtle adalah salah satu library standar Python. Anda bisa menggunakannya dengan mengimpor library turtle di dalam program Python Anda, tanpa perlu menginstal library tambahan, karena sudah disertakan dalam distribusi Python.</p>
+
+<p><strong>2. Bagaimana konsep-konsep seperti fungsi, loop, dan conditional digunakan pada Lab ini?</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Pada kode ini:</p>
+
+<p><i>1) Fungsi:</i><br>
+Fungsi digunakan untuk memecah kode menjadi bagian modular yang bisa digunakan berulang kali:</p>
+
+<pre>
+* initialize_turtle(): Menginisialisasi kanvas dan menggambar grafik.
+* plot_point(): Memetakan tersangka di grafik berdasarkan motif dan alibi.
+* count_index(): Menghitung indeks pelaku dari nilai motif dan alibi.
+* draw_square(), draw_triangle(), dll.: Menggambar bentuk geometris sesuai posisi tersangka.
+</pre>
+
+<p><i>2) Loop:</i><br>
+Loop digunakan untuk mengulangi tindakan tertentu:</p>
+
+<pre>
+* while True: Menjalankan program terus-menerus hingga pengguna memilih keluar.
+* for a in range(jumlah_tersangka): Memasukkan data tersangka.
+</pre>
+
+<p><i>3) Conditional:</i><br>
+Conditional digunakan untuk membuat keputusan:</p>
+
+<pre>
+* if pada menu: Menentukan tindakan sesuai pilihan pengguna.
+* Memvalidasi input tersangka: Memastikan motif dan alibi valid dan unik.
+</pre>
+
+<p>Secara keseluruhan, <i>fungsi</i> membuat kode modular, <i>loop</i> menangani pengulangan, dan <i>conditional</i> menangani pengambilan keputusan.</p>
+
+<p><strong>3. Apa yang terjadi pada turtle jika diberikan speed 0?</strong></p>
+
+<p><strong>Jawab :</strong><br>
+Jika Turtle diberikan speed 0, maka Turtle akan bergerak dengan kecepatan maksimum yang tersedia. Dalam mode ini, Turtle tidak menampilkan animasi gerakan saat menggambar, sehingga semua gambar akan langsung selesai digambar tanpa penundaan. Hal ini membuat proses menggambar jauh lebih cepat dibandingkan kecepatan lain.</p>
+
+<p><strong>4. Apa yang kamu dapatkan dari belajar turtle? (Open Question)</strong></p>
+
+<p><strong>Jawab:</strong><br>
+Silahkan dijawab menurut pendapat masing-masing.</p>
+
+<p><i>$# Sumber jawaban: GPT dan pikiran Jeremi</i></p>
+
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <hr/>
+        <!-- Link JRLINK -->
+        <h4 class="card-title text-center justify-content-center">Link Resource Perkuliahan</h4>
+        <p class="text-center d-flex justify-content-center">
+          Jika kalian membutuhkan resource belajar dari soal-soal tahun lalu, boleh buka di link berikut <br />
+          Pilih bagian folder paling bawah atau atas, kemudian pilih resource matkul yang ingin dipelajari. Semoga bermanfaat !
+        </p>
+        <div class="d-flex justify-content-center">
+          <div
+            class="list-group"
+            style="width: 50vw"
+          >
+          <!-- Link JR LINK -->
+            <a
+              href="https://jeremiaranggasetyawan.github.io/jrlink/"
+              target="_blank"
+              class="list-group-item list-group-item-action text-center"
+              >Link Resource Belajar</a
+            >
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
